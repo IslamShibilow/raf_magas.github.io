@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/menu_blocks.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Raf Magas menu</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <div class="burger">
+                <span></span>
+                <h1 class="burger-h1">Категории</h1>
+            </div>
+    
+            <ul class="nav-list">
+                <li class="list-items"><a href="#hot_coffe">Горячий кофе</a></li>
+                <li class="list-items"><a href="#cold_coffe">Холодный кофе</a></li>
+                <li class="list-items"><a href="#raf">РАФы</a></li>
+                <li class="list-items"><a href="#waffles">Вафли</a></li>
+                <li class="list-items"><a href="#sandwiches">Сэндвичи и панини</a></li>
+                <li class="list-items"><a href="#tea">Чаи</a></li>
+                <li class="list-items"><a href="#milkshakes">Коктейли</a></li>
+                <li class="list-items"><a href="#more_2">Другое</a></li>
+            </ul>
+    
+            <a href="index.html" class="header-text">RAF</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <hr class="row">
+        <div class="products hot_coffe" id="hot_coffe">
+            <h2 class="section-headline_text">Горячий кофе</h2>
+
+            <div class="product_block" id="block_1">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Доппио</span>
+                <span class="product_text">100р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_2">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Американо</span>
+                <span class="product_text">70 / 120р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_3">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Капучино</span>
+                <span class="product_text">130 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_4">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Латте</span>
+                <span class="product_text">130 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_5">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Латте лайт</span>
+                <span class="product_text">150р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_6">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Гляссе</span>
+                <span class="product_text">150р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_7">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Мокко</span>
+                <span class="product_text">270р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_8">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Моккачино</span>
+                <span class="product_text">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_9">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Флэк уайт</span>
+                <span class="product_text">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_10">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">"53"</span>
+                <span class="product_text">150р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_11">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Кросс-кофе</span>
+                <span class="product_text">150р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="more">
+                <h2 class="more-headline_text">Дополнительно</h2>
+
+                <div class="product_block" id="block_12">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Топпинги</span>
+                    <span class="product_text">20 / 40р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_13">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Сливки</span>
+                    <span class="product_text">100р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_14">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Альт-молоко</span>
+                    <span class="product_text">80р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+            </div>
+
+            <span class="btn-block">
+                <button class="btn show-more_1" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products cold_coffe" id="cold_coffe">
+            <h2 class="section_2-headline_text">Холодный кофе</h2>
+
+            <div class="product_block" id="block_15">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Японский<br>кофе</span>
+                <span class="product_price_2">170р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_16">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Айс латте</span>
+                <span class="product_text">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_17">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Эсперссо<br>тоник</span>
+                <span class="product_price_2">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_18">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Фраппучино</span>
+                <span class="product_text">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_19">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Тай кофе</span>
+                <span class="product_text">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="more">
+                <h2 class="more-headline_text">Дополнительно</h2>
+
+                <div class="product_block" id="block_12">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Топпинги</span>
+                    <span class="product_text">20 / 40р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_13">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Сливки</span>
+                    <span class="product_text">100р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_14">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Альт-молоко</span>
+                    <span class="product_text">80р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+            </div>
+
+            <span class="btn-block">
+                <button class="btn show-more_2" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products raf" id="raf">
+            <h2 class="section_3-headline_text">РАФы</h2>
+
+            <div class="product_block" id="block_20">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Раф ваниль</span>
+                <span class="product_text">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_21">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Раф арахис</span>
+                <span class="product_text">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_22">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Раф цитрус</span>
+                <span class="product_text">230р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_23">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Раф клубника</span>
+                <span class="product_text">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_24">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Раф<br>сол. карамель</span>
+                <span class="product_price_2">230р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_25">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Раф лаванда</span>
+                <span class="product_text">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_26">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Раф<br>роза-клубника</span>
+                <span class="product_price_2">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_27">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Раф урбеч</span>
+                <span class="product_text">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="more">
+                <h2 class="more-headline_text">Дополнительно</h2>
+
+                <div class="product_block" id="block_12">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Топпинги</span>
+                    <span class="product_text">20 / 40р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_13">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Сливки</span>
+                    <span class="product_text">100р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_14">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Альт-молоко</span>
+                    <span class="product_text">80р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+            </div>
+
+            <span class="btn-block">
+                <button class="btn show-more_3" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products waffles" id="waffles">
+            <h2 class="section_4-headline_text">Вафли</h2>
+
+            <div class="product_block" id="block_28">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Easy</span>
+                <span class="product_text">120р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_29">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Standard</span>
+                <span class="product_text">200р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_30">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Fruit-Royal</span>
+                <span class="product_text">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_31">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Шоко-Royal</span>
+                <span class="product_text">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_32">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Nutella</span>
+                <span class="product_text">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_33">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Nutella /Банан</span>
+                <span class="product_text">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_34">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Nutella /<br>Мороженное</span>
+                <span class="product_price_2">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_35">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Nutella /Банан<br>Мороженное</span>
+                <span class="product_price_2">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_36">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Штрудель</span>
+                <span class="product_text">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_37">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Арахисовая</span>
+                <span class="product_text">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="more">
+                <h2 class="more-headline_text">Дополнительно</h2>
+
+                <div class="product_block" id="block_12">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Мороженое</span>
+                    <span class="product_text">120р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_13">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Фрукты</span>
+                    <span class="product_text">100р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+
+                <div class="product_block" id="block_14">
+                    <img src="images/products/photo.png" class="product_photo">
+                    <span class="product_text">Nutella</span>
+                    <span class="product_text">80р</span>
+                    <button class="product_button">Подробнее</button>
+                </div>
+            </div>
+
+            <span class="btn-block">
+                <button class="btn show-more_4" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products sandwiches" id="sandwiches">
+            <h2 class="section_5-headline_text">Сэндвичи/Панини</h2>
+
+            <div class="product_block" id="block_38">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Сэндвич<br>с курицей</span>
+                <span class="product_price_2">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_39">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Сэндвич<br>с индейкой</span>
+                <span class="product_price_2">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_40">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Сэндвич<br>с лососем</span>
+                <span class="product_price_2">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_41">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Круассан<br>с курицей</span>
+                <span class="product_price_2">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_42">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Круассан<br>с индейкой</span>
+                <span class="product_price_2">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_43">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Круассан<br>с лососем</span>
+                <span class="product_price_2">280р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_44">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Панини<br>с курицей</span>
+                <span class="product_price_2">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_45">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Панини<br>с индейкой</span>
+                <span class="product_price_2">300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <span class="btn-block button_5">
+                <button class="btn show-more_5" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products tea" id="tea">
+            <h2 class="section_6-headline_text">Чаи</h2>
+
+            <div class="product_block" id="block_46">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Чёрный чай</span>
+                <span class="product_text">100 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_47">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Зелёный чай</span>
+                <span class="product_text">100 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_48">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Эрл Грей</span>
+                <span class="product_text">100 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_49">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Чай<br>фруктовый</span>
+                <span class="product_price_2">100 / 200р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_50">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Чай<br>жасминовый</span>
+                <span class="product_price_2">100 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_51">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Молочный<br>улун</span>
+                <span class="product_price_2">100 / 200р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_52">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Малина-мята</span>
+                <span class="product_text">100 / 200р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_53">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Клубника-мята</span>
+                <span class="product_text">150 / 250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_54">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Веницианская<br>ночь</span>
+                <span class="product_price_2">100 / 200р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_55">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Масала</span>
+                <span class="product_text">100 / 180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_56">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Облепиховый<br>с цедрой</span>
+                <span class="product_price_2">200 / 300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_57">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Чёрная<br>смородина</span>
+                <span class="product_price_2">200 / 300р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_58">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Египетская<br>ночь</span>
+                <span class="product_price_2">150 / 250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+            <span class="btn-block">
+                <button class="btn show-more_6" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products milkshakes" id="milkshakes">
+            <h2 class="section_7-headline_text">Молочные коктейли</h2>
+
+            <div class="product_block" id="block_59">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Классический</span>
+                <span class="product_text">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_60">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Шоколадный</span>
+                <span class="product_text">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_61">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Карамельный</span>
+                <span class="product_text">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_62">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Банановый</span>
+                <span class="product_text">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_63">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Клубничный</span>
+                <span class="product_text">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_64">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Мятный</span>
+                <span class="product_text">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <span class="btn-block button_7">
+                <button class="btn show-more_7" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products limonades" id="lemonades">
+            <h2 class="section_8-headline_text">Лимонады</h2>
+
+            <div class="product_block"  id="block_65">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Махито<br>классический</span>
+                <span class="product_price_2">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_66">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Махито<br>клубничный</span>
+                <span class="product_price_2">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_67">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Лимонад<br>цитрусовый</span>
+                <span class="product_price_2">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_68">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Лимонад<br>ананасовый</span>
+                <span class="product_price_2">220р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_69">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Лимонад<br>арбузный</span>
+                <span class="product_price_2">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_70">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Лимонад<br>ягодный</span>
+                <span class="product_price_2">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_71">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Махито</span>
+                <span class="product_text">180р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block"  id="block_72">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text_2">Лимонад<br>роза-персик</span>
+                <span class="product_price_2">250р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <span class="btn-block button_8">
+                <button class="btn show-more_8" type="button">Показать ещё</button>
+            </span>
+        </div>
+
+        <hr class="row">
+        <div class="products more_2" id="more_2">
+            <h2 class="section_9-headline_text">Другое</h2>
+
+            <div class="product_block" id="block_73">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Другое</span>
+                <span class="product_text">000р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_74">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Другое</span>
+                <span class="product_text">000р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_75">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Другое</span>
+                <span class="product_text">000р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+
+            <div class="product_block" id="block_76">
+                <img src="images/products/photo.png" class="product_photo">
+                <span class="product_text">Другое</span>
+                <span class="product_text">000р</span>
+                <button class="product_button">Подробнее</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-block">
+            <h2 class="footer-company_name">RAF</h2>
+            <span class="footer-text">Контакты</span>
+            <div class="social">
+                <a href="#"><img src="images/instagram-icon.png" class="social-icon"></a>
+                <a href="#"><img src="images/whatsapp-icon.png" class="social-icon"></a></a>
+                <a href="#"><img src="images/telegram-icon.png" class="social-icon"></a></a>
+                <a href="#"><img src="images/gmail-icon.png" class="social-icon"></a></a>
+            </div>
+        </div>
+        <a class="footer_link">Сделано <span>Shibilov-It.ru</span></a>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="btn.js"></script>
+</body>
+</html>
